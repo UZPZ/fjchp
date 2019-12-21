@@ -95,7 +95,20 @@ main{
   width: 80%;
   margin:auto;
 }
-
+@media (max-width: 990px) {
+  .caster-img img{
+    border:1px solid #ff2020;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .caster-img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+  }
+}
 @media (max-width: 375px ) {
   main{
     width:100%;
